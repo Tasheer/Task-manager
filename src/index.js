@@ -7,11 +7,12 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* root component */}
     <App />
+    {/* other components are sidenav header footer etc. */}
+    {/* and all the other components reside in the root component */}
+    {/* and then the root component is put inside the div with the id of root. */}
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
